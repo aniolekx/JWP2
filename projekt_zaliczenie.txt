@@ -1,0 +1,14 @@
+Moj projekt na zaliczenie to eksperyment kory polegal na uruchmoniu malego modelu LLM
+na urzadzeniu Jetson Nano Developer Kit z 4GB RAM.
+
+Skrypt nie tylko turuchamia model LLM ale takze dodaje synteze mowy.
+
+Na urzadzeniu uruchomilem model tinydolphin, a do syntezy mowy uzylem piper-tts z modelem cori.
+
+TODO:
+w przyszlosci chcialym dodac takze rozpoznawanie mowy uzytkownika na tekst, niestety uzadzenie ma ograniczone zasoby i nie wiem czy to sie uda.
+
+
+Projekt uruchamiam za pomoca polecenia: python3 piper/pipi5.py
+
+niestety nie testowalem na innych urzadzeniach.
